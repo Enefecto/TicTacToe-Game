@@ -11,6 +11,6 @@
     5. if/elif/else
     6. arrays [remove/insert]
 
-#### Para evitar que se detenga el programa use:
+### Y para evitar que se detenga el programa use:
 
     7. Try/Except
