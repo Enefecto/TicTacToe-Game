@@ -31,55 +31,56 @@ while True:
                 else:
                     turno = 'X'
 
+                #Si el ciclo llega a 5 significa que ya puede haber un ganador y por esto lo evaluamos todas las combinaciones desde el quinto ciclo.
                 if ciclo >= 5:
                     if turno == "X":
                         if filauno[0] == "O" and filauno[1] == "O" and filauno[2] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filados[0] == "O" and filados[1] == "O" and filados[2] == "O":
+                        elif filados[0] == "O" and filados[1] == "O" and filados[2] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filatres[0] == "O" and filatres[1] == "O" and filatres[2] == "O":
+                        elif filatres[0] == "O" and filatres[1] == "O" and filatres[2] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filauno[0] == "O" and filados[0] == "O" and filatres[0] == "O":
+                        elif filauno[0] == "O" and filados[0] == "O" and filatres[0] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filauno[1] == "O" and filados[1] == "O" and filatres[1] == "O":
+                        elif filauno[1] == "O" and filados[1] == "O" and filatres[1] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filauno[2] == "O" and filados[2] == "O" and filatres[2] == "O":
+                        elif filauno[2] == "O" and filados[2] == "O" and filatres[2] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filauno[0] == "O" and filados[1] == "O" and filatres[2] == "O":
+                        elif filauno[0] == "O" and filados[1] == "O" and filatres[2] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
-                        if filauno[2] == "O" and filados[1] == "O" and filatres[0] == "O":
+                        elif filauno[2] == "O" and filados[1] == "O" and filatres[0] == "O":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [O]\n--------------------------------------")
                             break
                     else:
                         if filauno[0] == "X" and filauno[1] == "X" and filauno[2] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filados[0] == "X" and filados[1] == "X" and filados[2] == "X":
+                        elif filados[0] == "X" and filados[1] == "X" and filados[2] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filatres[0] == "X" and filatres[1] == "X" and filatres[2] == "X":
+                        elif filatres[0] == "X" and filatres[1] == "X" and filatres[2] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filauno[0] == "X" and filados[0] == "X" and filatres[0] == "X":
+                        elif filauno[0] == "X" and filados[0] == "X" and filatres[0] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filauno[1] == "X" and filados[1] == "X" and filatres[1] == "X":
+                        elif filauno[1] == "X" and filados[1] == "X" and filatres[1] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filauno[2] == "X" and filados[2] == "X" and filatres[2] == "X":
+                        elif filauno[2] == "X" and filados[2] == "X" and filatres[2] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filauno[0] == "X" and filados[1] == "X" and filatres[2] == "X":
+                        elif filauno[0] == "X" and filados[1] == "X" and filatres[2] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
-                        if filauno[2] == "X" and filados[1] == "X" and filatres[0] == "X":
+                        elif filauno[2] == "X" and filados[1] == "X" and filatres[0] == "X":
                             print("\n\n\n--------------------------------------\n\tGANASTE JUGADOR [X]\n--------------------------------------")
                             break
                 try:

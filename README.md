@@ -1,6 +1,8 @@
 # TICTACTOE GAME
 
-## El juego del gato/tictactoe hecho de una manera simple, solo usando:
+## El juego del gato/tictactoe hecho con un algoritmo muy simple. 
+
+### En este programa use:
 
     1. prints/inputs 
     2. variables
@@ -9,6 +11,6 @@
     5. if/elif/else
     6. arrays [remove/insert]
 
-    #### Para evitar que se caiga el programa use:
+#### Para evitar que se detenga el programa use:
 
     7. Try/Except
