@@ -1,6 +1,6 @@
 # TICTACTOE GAME
 
-### El juego del gato/tictactoe hecho con un algoritmo muy simple. 
+## El juego del gato/tictactoe hecho con un algoritmo muy simple. 
 
 #### En este programa use:
 
