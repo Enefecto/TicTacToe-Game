@@ -1,6 +1,10 @@
 # TICTACTOE GAME
 
+<<<<<<< HEAD
 ## El juego del gato/tictactoe hecho con un algoritmo muy simple. 
+=======
+## El juego del 'gato/tictactoe' hecho con un algoritmo muy simple. 
+>>>>>>> 0b3bdde (Readme update local)
 
 #### En este programa use:
 
